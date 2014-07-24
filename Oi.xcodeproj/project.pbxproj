@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94358AC196598CF00818EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358AB196598CF00818EED /* Foundation.framework */; };
+		E94358AE196598CF00818EED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358AD196598CF00818EED /* CoreGraphics.framework */; };
+		E94358B0196598CF00818EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358AF196598CF00818EED /* UIKit.framework */; };
+		E94358B6196598CF00818EED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E94358B4196598CF00818EED /* InfoPlist.strings */; };
+		E94358B8196598CF00818EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94358B7196598CF00818EED /* main.m */; };
+		E94358BE196598CF00818EED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94358BD196598CF00818EED /* Images.xcassets */; };
+		E94358C5196598CF00818EED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358C4196598CF00818EED /* XCTest.framework */; };
+		E94358C6196598CF00818EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358AB196598CF00818EED /* Foundation.framework */; };
+		E94358C7196598CF00818EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358AF196598CF00818EED /* UIKit.framework */; };
+		E94358CF196598CF00818EED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E94358CD196598CF00818EED /* InfoPlist.strings */; };
+		E94358D1196598CF00818EED /* OiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E94358D0196598CF00818EED /* OiTests.m */; };
+		E94358E5196598FB00818EED /* PYMTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E94358DB196598FB00818EED /* PYMTextFieldCell.m */; };
+		E94358E6196598FB00818EED /* OiSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94358DD196598FB00818EED /* OiSignupViewController.m */; };
+		E94358E7196598FB00818EED /* OiLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94358DF196598FB00818EED /* OiLoginViewController.m */; };
+		E94358E8196598FB00818EED /* OiFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94358E1196598FB00818EED /* OiFriendsViewController.m */; };
+		E94358E9196598FB00818EED /* OiFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94358E3196598FB00818EED /* OiFirstViewController.m */; };
+		E94358EA196598FB00818EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94358E4196598FB00818EED /* Main.storyboard */; };
+		E94358EC1965991E00818EED /* PYMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94358EB1965991E00818EED /* PYMAppDelegate.m */; };
+		E94358EE19659FE600818EED /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358ED19659FE600818EED /* Parse.framework */; };
+		E94358F81965A03100818EED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358EF1965A03100818EED /* AudioToolbox.framework */; };
+		E94358F91965A03100818EED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358F01965A03100818EED /* CFNetwork.framework */; };
+		E94358FA1965A03100818EED /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358F11965A03100818EED /* CoreLocation.framework */; };
+		E94358FB1965A03100818EED /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358F21965A03100818EED /* libz.dylib */; };
+		E94358FC1965A03100818EED /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358F31965A03100818EED /* MobileCoreServices.framework */; };
+		E94358FD1965A03100818EED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358F41965A03100818EED /* QuartzCore.framework */; };
+		E94358FE1965A03100818EED /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358F51965A03100818EED /* Security.framework */; };
+		E94359001965A03100818EED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94358F71965A03100818EED /* SystemConfiguration.framework */; };
+		E946DBDE196830FB00BF1655 /* UIResponder+KeyboardCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E946DBDD196830FB00BF1655 /* UIResponder+KeyboardCache.m */; };
+		E946DBE719696A5500BF1655 /* UIColor+OiColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E946DBE619696A5500BF1655 /* UIColor+OiColor.m */; };
+		E946DBE91969977C00BF1655 /* oi_rev.wav in Resources */ = {isa = PBXBuildFile; fileRef = E946DBE81969977C00BF1655 /* oi_rev.wav */; };
+		E946DBF0196D670600BF1655 /* PYMAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E946DBEF196D670600BF1655 /* PYMAuthManager.m */; };
+		E946DBF6196D76DF00BF1655 /* OiUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E946DBF5196D76DF00BF1655 /* OiUser.m */; };
+		E946DBFD196EE90600BF1655 /* NSTimer+PYMBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E946DBFC196EE90600BF1655 /* NSTimer+PYMBlocksSupport.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E94358C8196598CF00818EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94358A0196598CF00818EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94358A7196598CF00818EED;
+			remoteInfo = Oi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E94358A8196598CF00818EED /* Oi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94358AB196598CF00818EED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E94358AD196598CF00818EED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E94358AF196598CF00818EED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E94358B3196598CF00818EED /* Oi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Oi-Info.plist"; sourceTree = "<group>"; };
+		E94358B5196598CF00818EED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E94358B7196598CF00818EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E94358B9196598CF00818EED /* Oi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oi-Prefix.pch"; sourceTree = "<group>"; };
+		E94358BA196598CF00818EED /* PYMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYMAppDelegate.h; sourceTree = "<group>"; };
+		E94358BD196598CF00818EED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E94358C3196598CF00818EED /* OiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94358C4196598CF00818EED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E94358CC196598CF00818EED /* OiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OiTests-Info.plist"; sourceTree = "<group>"; };
+		E94358CE196598CF00818EED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E94358D0196598CF00818EED /* OiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OiTests.m; sourceTree = "<group>"; };
+		E94358DA196598FB00818EED /* PYMTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMTextFieldCell.h; sourceTree = "<group>"; };
+		E94358DB196598FB00818EED /* PYMTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMTextFieldCell.m; sourceTree = "<group>"; };
+		E94358DC196598FB00818EED /* OiSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OiSignupViewController.h; sourceTree = "<group>"; };
+		E94358DD196598FB00818EED /* OiSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OiSignupViewController.m; sourceTree = "<group>"; };
+		E94358DE196598FB00818EED /* OiLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OiLoginViewController.h; sourceTree = "<group>"; };
+		E94358DF196598FB00818EED /* OiLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OiLoginViewController.m; sourceTree = "<group>"; };
+		E94358E0196598FB00818EED /* OiFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OiFriendsViewController.h; sourceTree = "<group>"; };
+		E94358E1196598FB00818EED /* OiFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OiFriendsViewController.m; sourceTree = "<group>"; };
+		E94358E2196598FB00818EED /* OiFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OiFirstViewController.h; sourceTree = "<group>"; };
+		E94358E3196598FB00818EED /* OiFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OiFirstViewController.m; sourceTree = "<group>"; };
+		E94358E4196598FB00818EED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E94358EB1965991E00818EED /* PYMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMAppDelegate.m; sourceTree = "<group>"; };
+		E94358ED19659FE600818EED /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		E94358EF1965A03100818EED /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E94358F01965A03100818EED /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E94358F11965A03100818EED /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E94358F21965A03100818EED /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E94358F31965A03100818EED /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E94358F41965A03100818EED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E94358F51965A03100818EED /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E94358F71965A03100818EED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E946DBDC196830FB00BF1655 /* UIResponder+KeyboardCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+KeyboardCache.h"; sourceTree = "<group>"; };
+		E946DBDD196830FB00BF1655 /* UIResponder+KeyboardCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+KeyboardCache.m"; sourceTree = "<group>"; };
+		E946DBE519696A5500BF1655 /* UIColor+OiColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+OiColor.h"; sourceTree = "<group>"; };
+		E946DBE619696A5500BF1655 /* UIColor+OiColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+OiColor.m"; sourceTree = "<group>"; };
+		E946DBE81969977C00BF1655 /* oi_rev.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oi_rev.wav; sourceTree = "<group>"; };
+		E946DBEE196D670600BF1655 /* PYMAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMAuthManager.h; sourceTree = "<group>"; };
+		E946DBEF196D670600BF1655 /* PYMAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMAuthManager.m; sourceTree = "<group>"; };
+		E946DBF4196D76DF00BF1655 /* OiUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OiUser.h; sourceTree = "<group>"; };
+		E946DBF5196D76DF00BF1655 /* OiUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OiUser.m; sourceTree = "<group>"; };
+		E946DBFB196EE90600BF1655 /* NSTimer+PYMBlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PYMBlocksSupport.h"; sourceTree = "<group>"; };
+		E946DBFC196EE90600BF1655 /* NSTimer+PYMBlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PYMBlocksSupport.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94358A5196598CF00818EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94358F81965A03100818EED /* AudioToolbox.framework in Frameworks */,
+				E94358F91965A03100818EED /* CFNetwork.framework in Frameworks */,
+				E94358FA1965A03100818EED /* CoreLocation.framework in Frameworks */,
+				E94358FB1965A03100818EED /* libz.dylib in Frameworks */,
+				E94358FC1965A03100818EED /* MobileCoreServices.framework in Frameworks */,
+				E94358FD1965A03100818EED /* QuartzCore.framework in Frameworks */,
+				E94358FE1965A03100818EED /* Security.framework in Frameworks */,
+				E94359001965A03100818EED /* SystemConfiguration.framework in Frameworks */,
+				E94358AE196598CF00818EED /* CoreGraphics.framework in Frameworks */,
+				E94358B0196598CF00818EED /* UIKit.framework in Frameworks */,
+				E94358EE19659FE600818EED /* Parse.framework in Frameworks */,
+				E94358AC196598CF00818EED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94358C0196598CF00818EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94358C5196598CF00818EED /* XCTest.framework in Frameworks */,
+				E94358C7196598CF00818EED /* UIKit.framework in Frameworks */,
+				E94358C6196598CF00818EED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E943589F196598CF00818EED = {
+			isa = PBXGroup;
+			children = (
+				E94358B1196598CF00818EED /* Oi */,
+				E94358CA196598CF00818EED /* OiTests */,
+				E94358AA196598CF00818EED /* Frameworks */,
+				E94358A9196598CF00818EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E94358A9196598CF00818EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94358A8196598CF00818EED /* Oi.app */,
+				E94358C3196598CF00818EED /* OiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94358AA196598CF00818EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94358EF1965A03100818EED /* AudioToolbox.framework */,
+				E94358F01965A03100818EED /* CFNetwork.framework */,
+				E94358F11965A03100818EED /* CoreLocation.framework */,
+				E94358F21965A03100818EED /* libz.dylib */,
+				E94358F31965A03100818EED /* MobileCoreServices.framework */,
+				E94358F41965A03100818EED /* QuartzCore.framework */,
+				E94358F51965A03100818EED /* Security.framework */,
+				E94358F71965A03100818EED /* SystemConfiguration.framework */,
+				E94358ED19659FE600818EED /* Parse.framework */,
+				E94358AB196598CF00818EED /* Foundation.framework */,
+				E94358AD196598CF00818EED /* CoreGraphics.framework */,
+				E94358AF196598CF00818EED /* UIKit.framework */,
+				E94358C4196598CF00818EED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E94358B1196598CF00818EED /* Oi */ = {
+			isa = PBXGroup;
+			children = (
+				E946DC01196EE96100BF1655 /* View */,
+				E946DC00196EE93C00BF1655 /* Controller */,
+				E946DBFF196EE92600BF1655 /* Model */,
+				E946DC02196EE98F00BF1655 /* Other */,
+				E946DBFE196EE90E00BF1655 /* Class Categories */,
+				E946DBEA196A6C4000BF1655 /* Resources */,
+				E94358B2196598CF00818EED /* Supporting Files */,
+			);
+			path = Oi;
+			sourceTree = "<group>";
+		};
+		E94358B2196598CF00818EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94358B3196598CF00818EED /* Oi-Info.plist */,
+				E94358B4196598CF00818EED /* InfoPlist.strings */,
+				E94358B7196598CF00818EED /* main.m */,
+				E94358B9196598CF00818EED /* Oi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E94358CA196598CF00818EED /* OiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E94358D0196598CF00818EED /* OiTests.m */,
+				E94358CB196598CF00818EED /* Supporting Files */,
+			);
+			path = OiTests;
+			sourceTree = "<group>";
+		};
+		E94358CB196598CF00818EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94358CC196598CF00818EED /* OiTests-Info.plist */,
+				E94358CD196598CF00818EED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E946DBEA196A6C4000BF1655 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E94358BD196598CF00818EED /* Images.xcassets */,
+				E946DBE81969977C00BF1655 /* oi_rev.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E946DBFE196EE90E00BF1655 /* Class Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E946DBE519696A5500BF1655 /* UIColor+OiColor.h */,
+				E946DBE619696A5500BF1655 /* UIColor+OiColor.m */,
+				E946DBDC196830FB00BF1655 /* UIResponder+KeyboardCache.h */,
+				E946DBDD196830FB00BF1655 /* UIResponder+KeyboardCache.m */,
+				E946DBFB196EE90600BF1655 /* NSTimer+PYMBlocksSupport.h */,
+				E946DBFC196EE90600BF1655 /* NSTimer+PYMBlocksSupport.m */,
+			);
+			name = "Class Categories";
+			sourceTree = "<group>";
+		};
+		E946DBFF196EE92600BF1655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E946DBF4196D76DF00BF1655 /* OiUser.h */,
+				E946DBF5196D76DF00BF1655 /* OiUser.m */,
+				E946DBEE196D670600BF1655 /* PYMAuthManager.h */,
+				E946DBEF196D670600BF1655 /* PYMAuthManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E946DC00196EE93C00BF1655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E94358E0196598FB00818EED /* OiFriendsViewController.h */,
+				E94358E1196598FB00818EED /* OiFriendsViewController.m */,
+				E94358DC196598FB00818EED /* OiSignupViewController.h */,
+				E94358DD196598FB00818EED /* OiSignupViewController.m */,
+				E94358DE196598FB00818EED /* OiLoginViewController.h */,
+				E94358DF196598FB00818EED /* OiLoginViewController.m */,
+				E94358E2196598FB00818EED /* OiFirstViewController.h */,
+				E94358E3196598FB00818EED /* OiFirstViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E946DC01196EE96100BF1655 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E94358E4196598FB00818EED /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E946DC02196EE98F00BF1655 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E94358DA196598FB00818EED /* PYMTextFieldCell.h */,
+				E94358DB196598FB00818EED /* PYMTextFieldCell.m */,
+				E94358BA196598CF00818EED /* PYMAppDelegate.h */,
+				E94358EB1965991E00818EED /* PYMAppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94358A7196598CF00818EED /* Oi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94358D4196598CF00818EED /* Build configuration list for PBXNativeTarget "Oi" */;
+			buildPhases = (
+				E94358A4196598CF00818EED /* Sources */,
+				E94358A5196598CF00818EED /* Frameworks */,
+				E94358A6196598CF00818EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oi;
+			productName = Oi;
+			productReference = E94358A8196598CF00818EED /* Oi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E94358C2196598CF00818EED /* OiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94358D7196598CF00818EED /* Build configuration list for PBXNativeTarget "OiTests" */;
+			buildPhases = (
+				E94358BF196598CF00818EED /* Sources */,
+				E94358C0196598CF00818EED /* Frameworks */,
+				E94358C1196598CF00818EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94358C9196598CF00818EED /* PBXTargetDependency */,
+			);
+			name = OiTests;
+			productName = OiTests;
+			productReference = E94358C3196598CF00818EED /* OiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94358A0196598CF00818EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PYM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = p4sh4;
+				TargetAttributes = {
+					E94358A7196598CF00818EED = {
+						DevelopmentTeam = M9EP7G4HHG;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					E94358C2196598CF00818EED = {
+						TestTargetID = E94358A7196598CF00818EED;
+					};
+				};
+			};
+			buildConfigurationList = E94358A3196598CF00818EED /* Build configuration list for PBXProject "Oi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E943589F196598CF00818EED;
+			productRefGroup = E94358A9196598CF00818EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94358A7196598CF00818EED /* Oi */,
+				E94358C2196598CF00818EED /* OiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94358A6196598CF00818EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94358EA196598FB00818EED /* Main.storyboard in Resources */,
+				E94358B6196598CF00818EED /* InfoPlist.strings in Resources */,
+				E946DBE91969977C00BF1655 /* oi_rev.wav in Resources */,
+				E94358BE196598CF00818EED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94358C1196598CF00818EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94358CF196598CF00818EED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94358A4196598CF00818EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94358B8196598CF00818EED /* main.m in Sources */,
+				E94358EC1965991E00818EED /* PYMAppDelegate.m in Sources */,
+				E946DBF0196D670600BF1655 /* PYMAuthManager.m in Sources */,
+				E94358E5196598FB00818EED /* PYMTextFieldCell.m in Sources */,
+				E94358E7196598FB00818EED /* OiLoginViewController.m in Sources */,
+				E946DBE719696A5500BF1655 /* UIColor+OiColor.m in Sources */,
+				E94358E8196598FB00818EED /* OiFriendsViewController.m in Sources */,
+				E94358E9196598FB00818EED /* OiFirstViewController.m in Sources */,
+				E946DBDE196830FB00BF1655 /* UIResponder+KeyboardCache.m in Sources */,
+				E94358E6196598FB00818EED /* OiSignupViewController.m in Sources */,
+				E946DBF6196D76DF00BF1655 /* OiUser.m in Sources */,
+				E946DBFD196EE90600BF1655 /* NSTimer+PYMBlocksSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94358BF196598CF00818EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94358D1196598CF00818EED /* OiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E94358C9196598CF00818EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94358A7196598CF00818EED /* Oi */;
+			targetProxy = E94358C8196598CF00818EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E94358B4196598CF00818EED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94358B5196598CF00818EED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E94358CD196598CF00818EED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94358CE196598CF00818EED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E94358D2196598CF00818EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "757935DF-CA1B-4DE4-9A1A-BF4974BDF3C5";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E94358D3196598CF00818EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "757935DF-CA1B-4DE4-9A1A-BF4974BDF3C5";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E94358D5196598CF00818EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oi/Oi-Prefix.pch";
+				INFOPLIST_FILE = "Oi/Oi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "757935DF-CA1B-4DE4-9A1A-BF4974BDF3C5";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E94358D6196598CF00818EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oi/Oi-Prefix.pch";
+				INFOPLIST_FILE = "Oi/Oi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "757935DF-CA1B-4DE4-9A1A-BF4974BDF3C5";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E94358D8196598CF00818EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Oi.app/Oi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oi/Oi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OiTests/OiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E94358D9196598CF00818EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Oi.app/Oi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oi/Oi-Prefix.pch";
+				INFOPLIST_FILE = "OiTests/OiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94358A3196598CF00818EED /* Build configuration list for PBXProject "Oi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94358D2196598CF00818EED /* Debug */,
+				E94358D3196598CF00818EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94358D4196598CF00818EED /* Build configuration list for PBXNativeTarget "Oi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94358D5196598CF00818EED /* Debug */,
+				E94358D6196598CF00818EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94358D7196598CF00818EED /* Build configuration list for PBXNativeTarget "OiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94358D8196598CF00818EED /* Debug */,
+				E94358D9196598CF00818EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E94358A0196598CF00818EED /* Project object */;
+}
