@@ -1,3 +1,7 @@
+### This repository is no longer maintained
+
+Parse has been closed down. I don't actively develop for iOS anymore. If anyone wants to update the application to work with the open source [Parse Platform](http://parseplatform.org/), pull requests are welcome!
+
 Oi!
 ==
 
@@ -15,7 +19,3 @@ The app uses `Parse.framework`, which has not been added to this repository. Dow
 You will also need a Parse.com account, and to create a new application there so you can get your own application ID and client key to put in the `PYMAppDelegate.m` file.
 
 This app uses push notifications as its main feature, which you will have to set up. You can follow [this tutorial](https://www.parse.com/tutorials/ios-push-notifications) to set up iOS push notifications with Parse. Note that the iOS simulator cannot receive push notifications, so you will need an Apple Developer account to set up push notifications on your device.
-
-### App Store
-This app is available on the [App Store](https://itunes.apple.com/hk/app/oi!!!/id897987191?mt=8). Check it out!
-
